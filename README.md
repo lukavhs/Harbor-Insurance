@@ -8,9 +8,8 @@ memory and source citations.
 Built as a learning project / proof of concept to explore the full RAG
 pipeline: chunking, hybrid retrieval, reranking, and grounded generation.
 
-<!-- 
-  Add a screenshot
--->
+<img width="1919" height="865" alt="Chatbot UI image" src="https://github.com/user-attachments/assets/277b20f0-f705-4240-9a75-4f3a001c59ff" />
+
 
 ## Features
 
@@ -27,9 +26,8 @@ pipeline: chunking, hybrid retrieval, reranking, and grounded generation.
   section so related information (e.g. all four plan tiers) stays together
   in one retrievable chunk
 
-<!--
-  Add a screenshot of the "Sources used"
--->
+<img width="1600" height="726" alt="Sources Used image" src="https://github.com/user-attachments/assets/38942248-487f-4660-95da-9960144be395" />
+
 
 ## How it works
 
@@ -100,8 +98,8 @@ insurance_rag_chatbot/
 - "What about dental?" *(as a follow-up — tests conversation memory)*
 - "What's a deductible?"
 
-<!--
-  Add a screenshot of a multi-turn conversation here optiomal
+<img width="1600" height="726" alt="Conext image" src="https://github.com/user-attachments/assets/cc89f171-a303-4b86-bc99-ab90b909b040" />
+
 
 ## Known limitations
 
