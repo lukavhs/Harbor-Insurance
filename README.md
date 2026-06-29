@@ -26,7 +26,7 @@ pipeline: chunking, hybrid retrieval, reranking, and grounded generation.
   section so related information (e.g. all four plan tiers) stays together
   in one retrievable chunk
 
-<img width="1600" height="726" alt="Sources Used image" src="https://github.com/user-attachments/assets/38942248-487f-4660-95da-9960144be395" />
+<img width="1600" height="722" alt="WhatsApp Image 2026-06-29 at 8 07 18 PM" src="https://github.com/user-attachments/assets/c4ed0a0c-d059-4d7d-b6d2-bf02e473c297" />
 
 
 ## How it works
