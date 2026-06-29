@@ -60,8 +60,11 @@ def load_resources():
     all_chunks = all_data["documents"]
     all_sources = [m["source"] for m in all_data["metadatas"]]
     bm25 = BM25Okapi([_tokenize(c) for c in all_chunks])
-
-    api_key = os.getenv("GEMINI_API_KEY")
+    
+    try:
+      api_key = st.secrets["GEMINI_API_KEYOPENAI_API_KEY"]
+    except:
+      api_key = os.getenv("GEMINI_API_KEY")
     gemini_client = genai.Client(api_key=api_key)
 
     return embed_model, reranker, collection, bm25, all_chunks, all_sources, gemini_client
