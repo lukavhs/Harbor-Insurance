@@ -1,5 +1,5 @@
 # Harbor — RAG-Based Insurance Document Chatbot
-
+### 🔗 [Live Demo](https://harbor-insurance.streamlit.app/) 
 A Retrieval-Augmented Generation (RAG) chatbot that answers questions about
 a fictional health insurance company's plans, coverage, and claims process —
 grounded entirely in a small set of sample documents, with conversational
